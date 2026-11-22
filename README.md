@@ -1,4 +1,4 @@
-# Java OOP Notes (Topics 1-8)
+# Java OOP Notes (Topics 1-15)
 
 Beginner-friendly Java Object-Oriented Programming notes. Every topic has its own file and follows the same structure, so you can study or review any topic on its own.
 
@@ -24,6 +24,13 @@ Beginner-friendly Java Object-Oriented Programming notes. Every topic has its ow
 | 6 | Encapsulation | [06-encapsulation.md](06-encapsulation.md) |
 | 7 | Inheritance | [07-inheritance.md](07-inheritance.md) |
 | 8 | Polymorphism | [08-polymorphism.md](08-polymorphism.md) |
+| 9 | Abstraction (Abstract Classes) | [09-abstraction.md](09-abstraction.md) |
+| 10 | Interface | [10-interface.md](10-interface.md) |
+| 11 | `static` and `final` Keywords | [11-static-and-final.md](11-static-and-final.md) |
+| 12 | 	Access modifier | [12-access-modifier.md](12-access-modifier.md) |
+| 13 | 	The Object Class (`toString`, `equals`, `hashCode`) | [13-object-class.md](13-object-class.md) |
+| 14 | 	Composition vs Inheritance | [14-composition-vs-inheritance.md](14-composition-vs-inheritance.md) |
+| 15 | Exception Handling Basics | [14-exception-handling.md](14-exception-handling.md) |
 
 ## Suggested learning order
 
@@ -59,7 +66,7 @@ java Main
 ```bash
 git init
 git add .
-git commit -m "Add Java OOP notes (topics 1-8)"
+git commit -m "Add Java OOP notes (topics 1-15)"
 git branch -M main
 git remote add origin https://github.com/<your-username>/<your-repo>.git
 git push -u origin main
@@ -78,5 +85,12 @@ git push -u origin main
 | Encapsulation | `private` data + public methods |
 | Inheritance | `extends`; is-a; parent constructor runs first |
 | Polymorphism | Overloading (compile time) + Overriding (runtime) |
+| Abstraction | `abstract` class cannot be instantiated; child must implement abstract methods |
+| Interface | A contract; a class can `implements` many interfaces |
+| `static` / `final` | `static` = belongs to the class; `final` = cannot change / override / extend |
+| Access Modifier | `private` < default < `protected` < `public` |
+| `Object` class | Root of every class; override `equals()` and `hashCode()` together |
+| Composition vs Inheritance | has-a vs is-a; prefer composition |
+| Exception Handling | `try` / `catch` / `finally`; checked vs unchecked; `throw` vs `throws` |
 
 Happy learning!
