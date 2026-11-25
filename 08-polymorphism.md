@@ -489,10 +489,5 @@ obj.only();
 - Fields and static methods are **not** polymorphic.
 - Downcast safely using `instanceof`.
 
-**Previous:** [Topic 7](07-inheritance.md) | **Next:** Topic 9: Abstraction
+**Previous:** [Topic 7](07-inheritance.md) | **Next:** [Topic 9: Abstraction](09-abstraction.md)
 
----
-
-### Day 1 + Topic 8 Complete
-
-You have finished the core of OOP: **class, object, field, method, constructor, `this`, encapsulation, inheritance, and polymorphism**. Next comes abstraction (abstract classes and interfaces).
